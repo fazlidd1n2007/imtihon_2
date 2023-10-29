@@ -1,0 +1,133 @@
+.dark{
+    margin-top: 227px;
+
+    .container{
+        fill: rgba(232, 236, 255, 0.30);
+    }
+
+    .dark__heading{
+        color: #058AFF;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 31.25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .dark__text{
+        color: #000;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .label {
+        margin-left: 33px;
+        margin-top: 28px;
+    }
+    
+    .dark__info {
+        margin-left: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .dark__input {
+        padding-left: 40px;
+        background: #FFF;
+        max-width: 687px;
+        width: 100%;
+        height: 82px;
+        border-radius: 10px;
+        border: 1px solid #0080FD;
+        opacity: 0.2px;
+        margin-left: 20px;
+        
+    }
+    
+    
+    .label__text {
+        display: block;
+        padding-bottom: 51px;
+    }
+    
+    .form__btn {
+        text-align: center;
+        margin-top: -95px;
+        margin-left: 100px;
+        display: flex; 
+        align-items: end;
+        justify-content: end;
+    }
+    
+    .mail {
+        margin-top: -100px;
+        margin-left: 55px;
+    }
+    
+    .dark__btn {
+        width: 102px;
+        height: 52px;
+        border-radius: 10px;
+        background: #0082F4;
+        text-align: center;
+        padding-top: -10px;
+        display: block;
+        border: none;
+        color: #FFF;
+        font-family: "Roboto";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        &:hover{
+            background-color: red;
+        }
+    }
+    
+    
+}
+
+@media only screen and (max-width: 760px) {
+    .textarea {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 604px) {
+    .textarea {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .dark__info {
+        margin-left: 20px;
+    }
+    .textarea {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .dark__text {
+        font-size: 14px;
+    }
+    
+    .dark__heading {
+        padding-bottom: 80px;
+    }
+
+    .dark__btn{
+        margin-left: -80px;
+    }
+}
